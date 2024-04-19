@@ -1,0 +1,29 @@
+.nav-container
+{
+    height: 50px;
+    background-color: black;
+}
+.nav-container .nav-cont
+{
+    float: right;
+}
+.nav-container .nav-cont ul
+{
+    padding: 10px;
+
+}
+.nav-container .nav-cont ul a
+{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+}
+.nav-container .nav-cont ul a:hover
+{
+    border-bottom: 2px solid yellow;
+    /* transition:2s;
+    transition-delay:1s;
+    transition-prope; */
+}

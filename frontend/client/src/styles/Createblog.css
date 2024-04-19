@@ -1,0 +1,79 @@
+
+*
+{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}.blog-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+  background-image: url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.blog-form
+{
+ width: 500px;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 1px 2px grey;
+  height: 700px;
+  border-radius: 10px;
+}
+
+.blog-form .blog-inp-sec input
+{
+
+  width: 400px;
+  height: 50px;
+  margin-left: 20px;
+  border: none;
+  box-shadow: inset 1px 1px 1px 2px grey;
+  border-radius: 10px;
+
+}
+.blog-form .blog-inp-sec label
+{
+  margin: 20px;
+  font-size: larger;
+  font-weight: 900;
+}
+.blog-form .blog-inp-sec
+{
+  display: flex;
+  flex-direction: column;
+  
+  margin: 20px;
+}
+.blog-sub-cont
+{
+display: flex;
+justify-content: center;
+}
+.blog-sub-cont .blog-sub-btn
+{
+  width: 200px;
+  height: 40px;
+  background-color:#5dbea3;
+  color: #000;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.blog-sub-cont .blog-sub-btn:hover
+{
+  width: 220px;
+  height: 40px;
+  background-color:aqua;
+  color: #000;
+  font-size: medium;
+  font-weight: 600;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  cursor: pointer;
+}
